@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased bg-[#0B0C10] text-[#C5C6C7];
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-gradient-to-r from-[#1F2833] to-[#0B0C10] hover:from-[#66FCF1] hover:to-[#45A29E] text-white rounded-lg transition-all duration-300;
+  }
+  .input-primary {
+    @apply block w-full px-4 py-2 border border-[#C5C6C7] rounded-md bg-[#0B0C10] text-[#C5C6C7] placeholder-[#1F2833] focus:outline-none focus:ring-2 focus:ring-[#66FCF1] focus:border-transparent;
+  }
+  .card {
+    @apply p-6 bg-[#1F2833] rounded-xl border border-[#C5C6C7] shadow-lg hover:bg-[#0B0C10] transition-all duration-300 backdrop-blur-sm;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
