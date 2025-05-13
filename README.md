@@ -38,10 +38,15 @@ CenSkill Connect is an AI-driven platform that matches job seekers with relevant
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="assets/screenshot1.png" width="200" alt="Job Seeker Screen"/>
-  <img src="assets/screenshot2.png" width="200" alt="Recruiter Dashboard"/>
-  <img src="assets/screenshot3.png" width="200" alt="Messaging Feature"/>
+  <img src="assets/ui.png" width="400" alt="UI Screen" style="margin: 15px;"/>
+  <img src="assets/skillbuilder.png" width="400" alt="Skill Builder" style="margin: 15px;"/>
+  <img src="assets/resumebuilder.png" width="400" alt="Resume Builder" style="margin: 15px;"/>
+  <img src="assets/jobapplication.png" width="400" alt="Job Application" style="margin: 15px;"/>
+  <img src="assets/internships.png" width="400" alt="Internships Section" style="margin: 15px;"/>
+  <img src="assets/dashboard.png" width="400" alt="Dashboard Screen" style="margin: 15px;"/>
+  <img src="assets/customersupport.png" width="400" alt="Customer Support" style="margin: 15px;"/>
 </p>
+
 
 ---
 
